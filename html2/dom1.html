@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+function myFunction() {
+var x = document.getElementById("demo");
+x.style.color = "red";
+}
+
+function myFunction2() {
+var x = document.getElementByName("example");
+x[0].innerHTML = "a";
+x[1].innerHTML = "b";
+}
+
+function myFunction3 {
+    var x = document.getElementsByTagName("li");
+    document.getElementById("demo3").innerHTML = x.length
+}
+</head>
+</script>
+<body>
+<p id="demo">Klik tombol untuk mengubah warna paragraf ini.</p>
+    <button oneclick="myFunction()">coba</button>
+
+<div class="example">Elemen div pertama dengan class = "example".</div>
+<div class="example">Elemen div kedua dengan class = "example".</div>
+    <p> Klik tombol untuk mengubah teks diatas menjadi a(baris1) dan b(baris2)</p>
+    <button onclick="myFunction()">coba2</button>
+   </script>
+
+   <p> unordered list:</p>
+<ul>
+<li>list 1</li>
+<li>list 2</li>
+<li>list 3</li>
+</ul>
+<p>Klik tombol tersebut untuk mengetahui
+berapa banyak elemen li yang ada di dokumen
+ini.</p>
+<button
+onclick="myFunction()">coba</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+var x =
+document.getElementsByTagName("LI");
+document.getElementById("demo").innerHTML
+= x.length;
+}</script>
+</div>
+</body>
+</html>
